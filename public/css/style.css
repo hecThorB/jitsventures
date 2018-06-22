@@ -32,7 +32,12 @@ footer{
   display: inline;
 }
 
-img {
+img{
     width: 100%;
     height: auto;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
 }
