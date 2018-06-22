@@ -58,7 +58,7 @@ router.get('/user/:userId', (req, res) => {
 });
 
 // Logged in users stories
-router.get('/user/:userId', ensureAuthenticated, (req, res) => {
+router.get('/my', ensureAuthenticated, (req, res) => {
   Story.find({user: req.user.id})
   .populate('user')
   .then(stories => {
