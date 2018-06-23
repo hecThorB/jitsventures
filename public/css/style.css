@@ -4,10 +4,6 @@ body {
   flex-direction: column;
 }
 
-.brand-logo{
-  font-size: 100px;
-}
-
 main {
   flex: 1 0 auto;
 }
@@ -15,11 +11,6 @@ main {
 .nav-wrapper .fa-bars{
   font-size: 25px;
 }
-
-nav .brand-logo {
-    font-size: 1rem;
-}
-
 
 footer{
   margin-top: 20px;
