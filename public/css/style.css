@@ -16,6 +16,11 @@ footer{
   margin-top: 20px;
 }
 
+.footer-logo{
+  width: auto;
+  height: 120px;
+}
+
 .story-text{
    height: 120px;
 }
